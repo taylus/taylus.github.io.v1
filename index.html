@@ -6,7 +6,7 @@
 <style>
 .brotext
 {
-    display: none;
+	visibility: hidden;
     width: 500px;
     text-align: center;
     font-size: 300%;
@@ -17,10 +17,10 @@
 <script>
 function toggleBro() {
     var bro = document.getElementById('bro');
-    if(bro.style.display == 'block')
-        bro.style.display = 'none';
+    if(bro.style.visibility == 'visible')
+        bro.style.visibility = 'hidden';
     else
-        bro.style.display = 'block';
+        bro.style.visibility = 'visible';
 }
 </script>
 </head>
@@ -47,5 +47,9 @@ function toggleBro() {
 </pre>
 </marquee>
 <div id='bro' class='brotext'>BROFIST</div>
+<ul style='padding-left: 20px'>
+	<li><a href="https://github.com/taylus?tab=repositories">My GitHub</a></li>
+	<li><a href="https://code.google.com/p/tiled-map-loader/">Some</a> <a href="https://code.google.com/p/meteors/">other</a> <a href="https://code.google.com/p/lunarlegend/">projects</a></li>
+</ul>
 </body>
 </html>
