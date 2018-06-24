@@ -4,7 +4,10 @@ body
     font-family: Helvetica,sans-serif;
     font-size: 13pt;
     text-align: center;
-    transition: 0.5s;
+}
+.fade-in
+{
+    transition: 0.75s;
     opacity: 0;
 }
 div.box
