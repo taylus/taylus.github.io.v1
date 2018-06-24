@@ -23,6 +23,9 @@ div.box
 #phaser-maze
 {
     margin: 12px 0;
+    width: 640px;
+    height: 320px;
+    background-color: black;
 }
 #flower
 {
